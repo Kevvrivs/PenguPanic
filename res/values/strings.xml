@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">pandapanic</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="itemname">Item</string>
+    <string name="quantity">Qty</string>
+    <string name="Add">Add</string>
+    <string name="facebook_app_id">1493398680921208</string>
+    <string name="title_activity_checklist_item">ChecklistItemActivity</string>
+    <string name="title_activity_checklist">ChecklistActivity</string>
+    <string name="title_activity_to_do_list">ToDoListActivity</string>
+    <string name="planList">Disaster Plan</string>
+    <string name="desc">Enter text here</string>
+    <string name="login">LOGIN</string>
+	<string name="register">REGISTER</string>
+	<string name="descRep">aaaa</string>
+	<string name="title_activity_register">RegisterActivity</string>
+	<string name="checklist">CHECKLIST</string>
+	<string name="disasterplan">DISASTER PLAN</string>
+	<string name="inventory">INVENTORY</string>
+	<string name="member">MEMBERS</string>
+	<string name="emergency">EMERGENCY CONTACTS</string>
+	<string name="title_activity_menu">MenuActivity</string>
+	<string name="logout">LOG OUT</string>
+
+</resources>

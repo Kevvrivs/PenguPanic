@@ -1,0 +1,72 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ff792f"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.pandapanic.LoginActivity" >
+
+    <ImageView
+        android:id="@+id/titleImage"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:src="@drawable/unnamed" android:contentDescription="@string/descRep"/>
+
+    <EditText
+        android:id="@+id/txtUser"
+        android:layout_width="fill_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="35dp"
+        android:hint="Username"
+        android:background="#fbf5e4"
+        android:ems="10"
+        android:textSize="40dp"
+        android:inputType="text"
+        android:textColor="#543d2a"
+        android:labelFor="@id/txtUser"
+        >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/txtPassword"
+        android:layout_width="fill_parent"
+        android:layout_height="70dp"
+        android:textSize="40sp"
+        android:layout_marginTop="20dp"
+        android:background="#fbf5e4"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColor="#543d2a"
+        android:labelFor="@id/txtPassword"
+        />
+
+    <Button
+        android:id="@+id/Login"
+        android:layout_width="fill_parent"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="#543d2a"
+        android:textColor="#fbf5e4"
+        android:text="@string/login" />
+
+    <Button
+        android:id="@+id/registerButton"
+        android:layout_width="fill_parent"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="#543d2a"
+        android:textColor="#e7bb98"        
+        android:text="@string/register" />
+
+</LinearLayout>
