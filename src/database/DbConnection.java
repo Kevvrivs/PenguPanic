@@ -9,9 +9,12 @@ import com.microsoft.windowsazure.mobileservices.MobileServiceClient;
 public class DbConnection {
 	
 	public static MobileServiceClient connectToAzureService(Context context){
-		String url = "https://pandabears.azure-mobile.net/";
-		String key  = "BLHpgClAaVeLTPYTCNkUBJczvEJzVg75";
+		//String url = "https://pandabears.azure-mobile.net/";
+		//String key  = "BLHpgClAaVeLTPYTCNkUBJczvEJzVg75";
 		
+		String url = "https://prevkit.azure-mobile.net/";
+		String key = "rXootnVHePtKaJRpTRSbqABoIdvzkE36";
+	
 		MobileServiceClient mClient = null; 
 		
 		try {
