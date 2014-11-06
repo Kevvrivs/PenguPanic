@@ -111,9 +111,13 @@ public class LoginActivity extends Activity {
 									Log.e("Login","Success");
 									user = account.get(0);
 									Log.e("Login",user.getId());
-									Intent i = new Intent(getApplicationContext(),MenuActivity.class);
-									i.putExtra("user", user);
-									startActivity(i);
+									if(user.getGroupId() != null){
+										Intent i = new Intent(getApplicationContext(),MenuActivity.class);
+										i.putExtra("user", user);
+										startActivity(i);
+									} else {
+										Log.e("Group Login", "You don't have a group yet");
+									}
 								}
 
 							} else {

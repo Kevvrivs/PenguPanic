@@ -14,48 +14,50 @@
     <ImageView
         android:id="@+id/titleLabel"
         android:layout_width="fill_parent"
-        android:gravity="center"
         android:layout_height="wrap_content"
+        android:gravity="center"
         android:src="@drawable/unnamed" />
 
-    <LinearLayout 
-    android:id="@+id/LinearLayout3"
-    android:layout_width="fill_parent"
-    android:layout_height="wrap_content"
-    android:orientation="horizontal"
-    android:background="#ff792f"
-    >
-    
-    <EditText
-        android:id="@+id/txtQuantity"
-        android:layout_width="250dp"
-        android:layout_height="30dp"
-        android:background="@drawable/borderbase"
-        android:ems="10" >
+    <LinearLayout
+        android:id="@+id/LinearLayout3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#ff792f"
+        android:orientation="horizontal" >
 
-        <requestFocus />
-    </EditText>
+        <EditText
+            android:id="@+id/txtQuantity"
+            android:layout_width="182dp"
+            android:layout_height="30dp"
+            android:background="@drawable/borderbase"
+            android:ems="10"
+            android:hint="@string/quantity"
+            android:inputType="number" >
+			
+            <requestFocus />
+        </EditText>
 
-    <EditText
-        android:id="@+id/txtItemName"
-        android:layout_width="250dp"
-        android:layout_height="30dp"
-        android:background="@drawable/borderbase"
-        android:layout_marginLeft="68dp"
-        android:ems="10" />
-    
+        <EditText
+            android:id="@+id/txtItemName"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginLeft="68dp"
+            android:background="@drawable/borderbase"
+            android:ems="10"
+            android:hint="@string/itemname" />
+
     </LinearLayout>
 
     <Button
         android:id="@+id/btnAdd"
-        android:gravity="center"
-        android:layout_width="250dp"
-        android:layout_height="40dp"
-        android:background="#e7bb98"
-        android:layout_marginTop="20dp"
+        android:layout_width="267dp"
+        android:layout_height="69dp"
         android:layout_marginLeft="150dp"
-        android:textSize="30dp"
-        android:text="Add Items" />
+        android:layout_marginTop="20dp"
+        android:background="#e7bb98"
+        android:gravity="center"
+        android:text="Add Items"
+        android:textSize="30dp" />
 
     <ListView
         android:id="@+id/listItem"

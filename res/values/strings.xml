@@ -28,5 +28,7 @@
 	<string name="title_activity_menu">MenuActivity</string>
 	<string name="logout">LOG OUT</string>
 	<string name ="ok">Ok</string>
+	<string name="addmember">Add User</string>
+	<string name="enteruser">Enter a username</string>
 
 </resources>

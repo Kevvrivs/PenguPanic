@@ -14,7 +14,7 @@ public class DbConnection {
 		
 		String url = "https://prevkit.azure-mobile.net/";
 		String key = "rXootnVHePtKaJRpTRSbqABoIdvzkE36";
-	
+		
 		MobileServiceClient mClient = null; 
 		
 		try {
