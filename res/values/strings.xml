@@ -27,5 +27,6 @@
 	<string name="emergency">EMERGENCY CONTACTS</string>
 	<string name="title_activity_menu">MenuActivity</string>
 	<string name="logout">LOG OUT</string>
+	<string name ="ok">Ok</string>
 
 </resources>

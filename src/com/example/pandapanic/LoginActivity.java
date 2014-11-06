@@ -38,6 +38,7 @@ public class LoginActivity extends Activity {
 	EditText username;
 	EditText password;
 	Button loginButton;
+	Button registerButton;
 	
 	Account user;
 
@@ -50,6 +51,8 @@ public class LoginActivity extends Activity {
 		password = (EditText) findViewById(R.id.txtPassword);
 		loginButton = (Button) findViewById(R.id.Login);
 		loginButton.setOnClickListener(new loginListener());
+		registerButton = (Button) findViewById(R.id.registerButton);
+		registerButton.setOnClickListener(new registerListener());
 		mClient = DbConnection.connectToAzureService(this);
 		
 	}
@@ -72,7 +75,16 @@ public class LoginActivity extends Activity {
 		}
 		return super.onOptionsItemSelected(item);
 	}
+	
+	class registerListener implements OnClickListener {
 
+		@Override
+		public void onClick(View arg0) {
+			Intent i = new Intent(getApplicationContext(),RegisterActivity.class);
+			startActivity(i);
+		}
+	}
+	
 	class loginListener implements OnClickListener {
 
 		@Override
