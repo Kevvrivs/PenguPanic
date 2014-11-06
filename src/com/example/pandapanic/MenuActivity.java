@@ -13,13 +13,17 @@ import android.widget.Button;
 public class MenuActivity extends Activity{
 
 	Account user;
+	String userString;
 	
 	public void onCreate(Bundle savedInstanceState){
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_menu);
 		Intent i = getIntent();
 		user = (Account) i.getSerializableExtra("user");
+		userString = "Welcome, "+user.getUsername();
 		Button btnChecklist = (Button) findViewById(R.id.checklistButton);
+		TextView tx = (TextView) findViewById(R.id.messageUser);
+		tx.setText(userString);
 		btnChecklist.setOnClickListener(new OnClickListener(){
 
 			@Override

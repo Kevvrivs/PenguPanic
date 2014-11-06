@@ -16,6 +16,14 @@
         android:gravity="center"
         android:layout_height="wrap_content"
         android:src="@drawable/unnamed" />
+
+    <TextView
+        android:id="@+id/messageUser"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Large Text"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
     
     <Button
         android:id="@+id/checklistButton"
