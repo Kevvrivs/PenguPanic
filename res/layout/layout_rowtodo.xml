@@ -7,7 +7,7 @@
  <LinearLayout
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:background="@drawable/itemdes" >
+        android:background="#BF0C43" >
 
         <CheckBox
             android:id="@+id/checkToDoComplete"
@@ -27,7 +27,7 @@
             android:layout_marginBottom="20dp"
             android:layout_marginRight="20dp"
             android:textSize="35dp"
-            android:textColor="#8d4d41"
+            android:textColor="#fbf5e4"
             android:layout_marginLeft="5dp"
             android:text="TextView" />
 

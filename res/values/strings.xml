@@ -7,15 +7,15 @@
     <string name="username">Username</string>
     <string name="password">Password</string>
     <string name="title_activity_login">Login</string>
-    <string name="itemname">Item</string>
-    <string name="quantity">Qty</string>
-    <string name="Add">Add</string>
+    <string name="itemname">Name of the Item</string>
+    <string name="quantity">Specify quanitity of item</string>
+    <string name="Add">Add the Plan</string>
     <string name="facebook_app_id">1493398680921208</string>
     <string name="title_activity_checklist_item">ChecklistItemActivity</string>
     <string name="title_activity_checklist">Item Checklist</string>
     <string name="title_activity_to_do_list">Create Disaster Plan</string>
     <string name="planList">Disaster Plan</string>
-    <string name="desc">Enter text here</string>
+    <string name="desc">Enter a Plan of Action</string>
     <string name="login">LOGIN</string>
 	<string name="register">REGISTER</string>
 	<string name="descRep">aaaa</string>
@@ -28,7 +28,7 @@
 	<string name="title_activity_menu">Main Menu</string>
 	<string name="logout">LOG OUT</string>
 	<string name ="ok">Ok</string>
-	<string name="addmember">Add User</string>
+	<string name="addmember">Add a New Member</string>
 	<string name="enteruser">Enter a username</string>
 
 </resources>

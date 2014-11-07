@@ -7,7 +7,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#ff792f" >
+        android:background="#BF0C43" >
 
         <CheckBox
             android:id="@+id/checkIsCompleted"
